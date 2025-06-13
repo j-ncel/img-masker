@@ -4,9 +4,9 @@ A simple and lightweight Python tool for masking specific colors in images. Supp
 
 # Sample Output
 
-| Original Image                      | Masking Sample 1        | Masking Sample 2        |
-| ----------------------------------- | ----------------------- | ----------------------- |
-| ![Original](samples/test_image.png) | ![1.png](samples/1.png) | ![2.png](samples/2.png) |
+| Original Image                                                                               | Masking Sample 1                                                                 | Masking Sample 2                                                                 |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| ![Original](https://raw.githubusercontent.com/j-ncel/img-masker/main/samples/test_image.png) | ![1.png](https://raw.githubusercontent.com/j-ncel/img-masker/main/samples/1.png) | ![2.png](https://raw.githubusercontent.com/j-ncel/img-masker/main/samples/2.png) |
 
 _Sample Image: Meoscarada image credit to [PokeAPI](https://pokeapi.co/)._
 

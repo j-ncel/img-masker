@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "img-masker"
-version = "1.0.0"
+version = "1.0.2"
 description = "A simple image masking tool."
 readme = "README.md"
 authors = [{ name = "j-ncel" }]
