@@ -8,7 +8,7 @@ A simple and lightweight Python tool for masking specific colors in images. Supp
 | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | ![Original](https://raw.githubusercontent.com/j-ncel/img-masker/main/samples/test_image.png) | ![1.png](https://raw.githubusercontent.com/j-ncel/img-masker/main/samples/1.png) | ![2.png](https://raw.githubusercontent.com/j-ncel/img-masker/main/samples/2.png) |
 
-_Sample Image: Meoscarada image credit to [PokeAPI](https://pokeapi.co/)._
+_Sample Image: Meowscarada image credit to [PokeAPI](https://pokeapi.co/)._
 
 ## Features
 
