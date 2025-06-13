@@ -2,6 +2,14 @@
 
 A simple and lightweight Python tool for masking specific colors in images. Supports both local files and remote image URLs. Built on top of [Pillow](https://python-pillow.org/) for image processing.
 
+# Sample Output
+
+| Original Image                      | Masking Sample 1        | Masking Sample 2        |
+| ----------------------------------- | ----------------------- | ----------------------- |
+| ![Original](samples/test_image.png) | ![1.png](samples/1.png) | ![2.png](samples/2.png) |
+
+_Sample Image: Meoscarada image credit to [PokeAPI](https://pokeapi.co/)._
+
 ## Features
 
 - Mask (replace) pixels of a specific color or transparency in an image.
@@ -59,9 +67,9 @@ masked_img.show()
 # Mask all transparent pixels with black, keep others white
 masked_img = mask(
     "input.png",
-    mask_color="black", # Can also be remove since black is default mask_color
-    bg_color="white", # Can also be remove since white is default bg_color
-    filter_color="transparent" # Can also be remove since transparent is  default filter color
+    mask_color="black",
+    bg_color="white",
+    filter_color="transparent"
 )
 masked_img.save("masked.png")
 ```
