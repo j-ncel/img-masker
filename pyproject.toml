@@ -9,16 +9,21 @@ name = "img-masker"
 version = "1.0.0"
 description = "A simple image masking tool."
 readme = "README.md"
-authors = [{ name = "j-ncel"}]
-license = { file = "LICENSE" }
+authors = [{ name = "j-ncel" }]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 keywords = ["image processing", "masking", "Python"]
 dependencies = ["Pillow", "requests"]
 requires-python = ">=3.8"
+
+[tool.setuptools]
+license-files = ["LICENSE"]
+
+[tool.setuptools.packages.find]
+include = ["img_masker"]
+exclude = ["samples"]
 
 [project.urls]
 Homepage = "https://github.com/j-ncel/img-masker"
