@@ -1,3 +1,8 @@
+<a href="https://coff.ee/jncel">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="170" height="" alt="Buy Me a Coffee">
+</a>
+
+
 # img-masker
 
 A simple and lightweight Python tool for masking specific colors in images. Supports both local files and remote image URLs. Built on top of [Pillow](https://python-pillow.org/) for image processing.
